@@ -1,0 +1,232 @@
+
+body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  /* Prevent horizontal scrolling */
+  font-size: medium;
+
+}
+
+.dashboard {
+  margin-top: 20px;
+}
+
+.user-info {
+  display: flex;
+  border: 1;
+}
+
+
+.side-bar {
+  text-transform: uppercase;
+  font-size: 40;
+  margin: 5px;
+  padding-left: 30px;
+  height: 100vh;
+}
+
+.flag {
+  height: 20px;
+  width: 20px;
+}
+
+
+.smalltext {
+  font-size: 13px;
+}
+
+
+
+.uploadcv:hover {
+  border: 2px dashed blue !important;
+}
+
+
+.btn-light {
+  padding: 2px 5px;
+  /* Reduces padding inside each button */
+  margin: 0 2px;
+  /* Reduces space between buttons */
+}
+
+.iconimg {
+  width: 18px;
+  /* Adjust the size of the icon */
+  height: 18px;
+  /* Adjust the size of the icon */
+}
+
+.main-content {
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.main-title {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.btn-bs{
+  height: 40px;
+  border: none;
+}
+
+
+.hover-icon {
+  font-size: 20px;
+  color: grey;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hover-icon:hover {
+  transform: scale(1.2);
+  color: rgb(66, 79, 196);
+  /* Change color when hovering */
+}
+
+
+
+
+.pagination .page-link {
+border-radius: 100%;
+/* padding: 5px 5px;
+margin: 0 10px;  */
+font-size: 13px; 
+text-align: center;
+color: black;
+margin-top: -75px;
+
+}
+
+
+.pagination .page-link:hover {
+background-color: #007bff;
+color: white;
+}
+
+.pagination .page-link {
+border: none;
+}
+
+.pagination {
+display: flex;
+}
+
+
+
+
+.form-check-label {
+font-size: 0.85rem; /* Reduce the font size of the label */
+}
+
+.bin i, .pencil i {
+padding: 0px;
+font-size: 0.8rem; /* Reduce the icon size */
+}
+
+.btn {
+padding: 5px 10px; /* Optional: Adjust button padding if needed */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PHONE  */
+@media screen and (max-width: 576px) {
+
+.side-bar {
+  max-width: 250px;
+  padding-left: 10px;
+}
+
+
+.navbar-toggler-icon {
+  width: 15px;
+  height: 15px;
+
+}
+
+#logo {
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+}
+
+
+
+
+
+
+
+/* sm (for medium-sized devices) */
+@media (min-width: 576px) and (max-width: 768px) {
+
+#logo {
+  padding-top: 10px;
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+}
+}
+
+
+/* TABLET   */
+@media (min-width: 769px) and (max-width: 992px) {
+ 
+
+#logo {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+}
+
+
+
+/* LAPTOP/ DESKTOPS */
+@media screen and (min-width: 992px) {
+  main-content {
+
+    /* height: 30px; */
+    /* width: 1400px; */
+    margin-top: 10px;
+    width: 100%;
+    /* margin-left: 30px; */
+  }
+
+
+  #logo {
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding-left: 50px;
+    padding-right: 0px; */
+    margin-left: 0px;
+  }
+
+  .navbar {
+    margin-left: -45px;
+  }
+
+  .navbar-brand {
+    font-weight: 600;
+  }
+
+  .bin{
+    margin-left: 30px;
+  }
+}
